@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/lg_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="email"
+            android:layout_width="300px"
+            android:layout_height="75px"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"
+            android:layout_toStartOf="@+id/imageView1" />
+
+        <TextView
+            android:text="password"
+            android:layout_width="300px"
+            android:layout_height="75px"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"
+            android:layout_alignEnd="@+id/textView4" />
+
+        <TextView
+            android:text="xxx"
+            android:layout_width="300px"
+            android:layout_height="75px"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"
+            android:layout_alignEnd="@+id/textView5" />
+
+        <Button
+            android:text="我的病历"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="53dp"
+            android:id="@+id/button2"
+            android:textColor="@color/white"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:text="nickname"
+            android:layout_width="300px"
+            android:layout_height="75px"
+            android:layout_marginTop="34dp"
+            android:id="@+id/textView3"
+            android:textColor="@color/white"
+            android:layout_below="@+id/imageView1"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/textView4" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="70px"
+            android:layout_alignTop="@+id/textView3"
+            android:id="@+id/textView8"
+            android:layout_above="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView4"
+            android:gravity="right"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="70px"
+            android:id="@+id/textView7"
+            android:layout_above="@+id/textView5"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView4"
+            android:gravity="right"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="70px"
+            android:id="@+id/textView10"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView4"
+            android:layout_above="@+id/textView6"
+            android:layout_below="@+id/textView4"
+            android:gravity="right"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="70px"
+            android:id="@+id/textView9"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:gravity="right"/>
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@mipmap/bbb"
+            android:id="@+id/imageView1"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            />
+        <!-- app:srcCompat="@android:drawable/sym_def_app_icon"-->
+        <Button
+            android:text="修改头像"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:id="@+id/button1"
+            android:textColor="@color/white"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
