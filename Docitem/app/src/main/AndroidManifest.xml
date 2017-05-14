@@ -22,8 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.doc.Person.person"
-            />
+        <activity android:name="com.doc.Person.person"/>
+        <activity android:name="com.doc.Commom.register"/>
     </application>
 
 </manifest>

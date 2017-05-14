@@ -30,6 +30,7 @@
             android:layout_height="44dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight ="50dp"
+            android:hint="请输入手机号"
             android:background="@mipmap/input_over"/>
     </LinearLayout>
 
